@@ -12,6 +12,10 @@
   position: fixed;
   z-index: 2;
 
+  @media screen and (max-width: 470px) {
+    padding: 1rem 0.5rem;
+  }
+
   &-logo {
     display: flex;
     justify-content: flex-start;
@@ -24,6 +28,15 @@
       @media screen and (min-width: 2000px){
         width: 660px;
         height: 60px;
+      }
+
+      @media screen and (max-width: 470px)  {
+        width: 260px;
+        height: 25px;
+      }
+
+      @media screen and (max-width: 300px)  {
+        width: 220px;
       }
     }
   }
@@ -148,10 +161,17 @@
       @media screen  and (min-width: 900px) {
         display: none;
       }
+
+
     }
 
     @media screen  and (min-width: 900px) {
       display: none;
+    }
+
+    @media screen and (max-width: 300px)  {
+      width: 30px;
+      height: 30px;
     }
   }
 }
