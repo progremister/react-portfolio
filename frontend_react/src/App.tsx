@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-import NavigationDots from "./components/NavigationDots";
 import SocialMedia from "./components/SocialMedia";
 import About from "./containers/About";
 import Contact from "./containers/Contact";
