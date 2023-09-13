@@ -59,6 +59,7 @@ const Contact = () => {
           alert("Oops! Something went wrong.");
         }
       );
+      setIsFormSubmitted(true);
   };
 
   return (
